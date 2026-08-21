@@ -1,0 +1,84 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.logo {
+  height: 1.75rem;
+  width: 1.75rem;
+  object-fit: contain;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+
+/* flex: 1 + min-height: 0 is what keeps this region a stable size —
+   every step renders inside the same frame instead of resizing the page. */
+.content {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  overflow-y: auto;
+}
+
+.placeholder {
+  max-width: 24rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.debug {
+  margin-top: 1rem;
+  text-align: left;
+  overflow: auto;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  padding: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-teal);
+}
+
+.restartButton {
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.restartButton:hover {
+  color: var(--color-text);
+}

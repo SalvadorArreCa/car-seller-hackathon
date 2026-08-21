@@ -1,0 +1,19 @@
+# Backend (Maven)
+backend/target/
+
+# Backend (Gradle, if you end up there instead)
+backend/.gradle/
+backend/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Secrets / local config — never commit real credentials
+.env
+.env.local
+backend/src/main/resources/application-local.yml
