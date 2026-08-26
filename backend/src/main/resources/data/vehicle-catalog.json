@@ -1,0 +1,601 @@
+[
+  {
+    "id": "toyota-camry-2026",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2026,
+    "price": 29600,
+    "bodyType": "Sedan",
+    "fuelType": "Hybrid",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 52,
+      "highway": 49,
+      "combined": 51,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 15.1,
+    "features": [
+      "Toyota Safety Sense 3.0",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Dual-zone automatic climate control"
+    ]
+  },
+  {
+    "id": "honda-accord-2026",
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2026,
+    "price": 28395,
+    "bodyType": "Sedan",
+    "fuelType": "Gasoline",
+    "transmission": "CVT",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 29,
+      "highway": 37,
+      "combined": 32,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 16.7,
+    "features": [
+      "Honda Sensing",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Adaptive Cruise Control"
+    ]
+  },
+  {
+    "id": "toyota-corolla-2026",
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2026,
+    "price": 23125,
+    "bodyType": "Sedan",
+    "fuelType": "Gasoline",
+    "transmission": "CVT",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 32,
+      "highway": 41,
+      "combined": 35,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 13.1,
+    "features": [
+      "Toyota Safety Sense 3.0",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Blind Spot Monitor"
+    ]
+  },
+  {
+    "id": "honda-civic-2026",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2026,
+    "price": 24695,
+    "bodyType": "Sedan",
+    "fuelType": "Gasoline",
+    "transmission": "CVT",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 32,
+      "highway": 41,
+      "combined": 36,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 14.8,
+    "features": [
+      "Honda Sensing",
+      "Apple CarPlay",
+      "LED Headlights",
+      "Lane Keeping Assist"
+    ]
+  },
+  {
+    "id": "hyundai-elantra-2026",
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2026,
+    "price": 22625,
+    "bodyType": "Sedan",
+    "fuelType": "Gasoline",
+    "transmission": "CVT",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 31,
+      "highway": 40,
+      "combined": 35,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 14.2,
+    "features": [
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "LED Headlights",
+      "8-inch touchscreen"
+    ]
+  },
+  {
+    "id": "tesla-model-3-2026",
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2026,
+    "price": 38630,
+    "bodyType": "Sedan",
+    "fuelType": "Electric",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "RWD",
+    "fuelEconomy": null,
+    "electricRange": 321,
+    "cargoCapacity": 24.0,
+    "features": [
+      "15.4-inch touchscreen",
+      "Over-the-air software updates",
+      "Supercharger access",
+      "Rear touchscreen"
+    ]
+  },
+  {
+    "id": "toyota-rav4-2026",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2026,
+    "price": 31900,
+    "bodyType": "SUV",
+    "fuelType": "Hybrid",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 47,
+      "highway": 40,
+      "combined": 44,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 37.8,
+    "features": [
+      "Toyota Safety Sense 4.0",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "10.5-inch touchscreen"
+    ]
+  },
+  {
+    "id": "honda-cr-v-2026",
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2026,
+    "price": 30920,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "CVT",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 28,
+      "highway": 33,
+      "combined": 30,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 39.3,
+    "features": [
+      "Honda Sensing",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Wireless Phone Charger"
+    ]
+  },
+  {
+    "id": "hyundai-tucson-2026",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2026,
+    "price": 29700,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 25,
+      "highway": 33,
+      "combined": 28,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 38.7,
+    "features": [
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Smart Cruise Control",
+      "12.3-inch touchscreen"
+    ]
+  },
+  {
+    "id": "kia-sportage-2026",
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2026,
+    "price": 28790,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 25,
+      "highway": 33,
+      "combined": 28,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 39.6,
+    "features": [
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Smart Cruise Control",
+      "Lane Keeping Assist"
+    ]
+  },
+  {
+    "id": "mazda-cx-5-2026",
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2026,
+    "price": 29990,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "AWD",
+    "fuelEconomy": {
+      "city": 23,
+      "highway": 29,
+      "combined": 26,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 29.6,
+    "features": [
+      "i-Activ AWD",
+      "Apple CarPlay",
+      "Android Auto",
+      "Blind Spot Monitoring"
+    ]
+  },
+  {
+    "id": "chevrolet-equinox-2026",
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "year": 2026,
+    "price": 28800,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 26,
+      "highway": 31,
+      "combined": 28,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 29.8,
+    "features": [
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Adaptive Cruise Control",
+      "Automatic Emergency Braking"
+    ]
+  },
+  {
+    "id": "ford-bronco-sport-2026",
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "year": 2026,
+    "price": 31845,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "4WD",
+    "fuelEconomy": {
+      "city": 25,
+      "highway": 30,
+      "combined": 27,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 32.5,
+    "features": [
+      "Standard 4x4",
+      "Apple CarPlay",
+      "Android Auto",
+      "Terrain Management System"
+    ]
+  },
+  {
+    "id": "hyundai-santa-fe-2026",
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "year": 2026,
+    "price": 35050,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 7,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 20,
+      "highway": 29,
+      "combined": 24,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 14.6,
+    "features": [
+      "Three-row seating",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Forward Collision-Avoidance Assist"
+    ]
+  },
+  {
+    "id": "kia-telluride-2026",
+    "make": "Kia",
+    "model": "Telluride",
+    "year": 2026,
+    "price": 36390,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 8,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 20,
+      "highway": 26,
+      "combined": 22,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 21.0,
+    "features": [
+      "Three-row seating",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Highway Driving Assist"
+    ]
+  },
+  {
+    "id": "toyota-highlander-2026",
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 2026,
+    "price": 46270,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 7,
+    "drivetrain": "AWD",
+    "fuelEconomy": {
+      "city": 21,
+      "highway": 28,
+      "combined": 24,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 16.0,
+    "features": [
+      "Toyota Safety Sense",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Three-zone climate control"
+    ]
+  },
+  {
+    "id": "ford-explorer-2026",
+    "make": "Ford",
+    "model": "Explorer",
+    "year": 2026,
+    "price": 38465,
+    "bodyType": "SUV",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 6,
+    "drivetrain": "RWD",
+    "fuelEconomy": {
+      "city": 20,
+      "highway": 29,
+      "combined": 24,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": 16.3,
+    "features": [
+      "Three-row seating",
+      "Apple CarPlay",
+      "Android Auto",
+      "Ford Co-Pilot360"
+    ]
+  },
+  {
+    "id": "tesla-model-y-2026",
+    "make": "Tesla",
+    "model": "Model Y",
+    "year": 2026,
+    "price": 39990,
+    "bodyType": "SUV",
+    "fuelType": "Electric",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "RWD",
+    "fuelEconomy": null,
+    "electricRange": 321,
+    "cargoCapacity": 29.5,
+    "features": [
+      "15.4-inch touchscreen",
+      "Wireless phone charging",
+      "Over-the-air software updates",
+      "Supercharger access"
+    ]
+  },
+  {
+    "id": "hyundai-ioniq-5-2026",
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "year": 2026,
+    "price": 35000,
+    "bodyType": "SUV",
+    "fuelType": "Electric",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "RWD",
+    "fuelEconomy": null,
+    "electricRange": 245,
+    "cargoCapacity": 26.3,
+    "features": [
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "12.3-inch touchscreen",
+      "DC fast charging"
+    ]
+  },
+  {
+    "id": "ford-mustang-mach-e-2026",
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "year": 2026,
+    "price": 37795,
+    "bodyType": "SUV",
+    "fuelType": "Electric",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "RWD",
+    "fuelEconomy": null,
+    "electricRange": 260,
+    "cargoCapacity": 29.7,
+    "features": [
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "15.5-inch touchscreen",
+      "Ford Co-Pilot360"
+    ]
+  },
+  {
+    "id": "toyota-bz-2026",
+    "make": "Toyota",
+    "model": "bZ",
+    "year": 2026,
+    "price": 34900,
+    "bodyType": "SUV",
+    "fuelType": "Electric",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": null,
+    "electricRange": 236,
+    "cargoCapacity": null,
+    "features": [
+      "14-inch Toyota Audio Multimedia",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Toyota Safety Sense"
+    ]
+  },
+  {
+    "id": "ford-maverick-2026",
+    "make": "Ford",
+    "model": "Maverick",
+    "year": 2026,
+    "price": 28145,
+    "bodyType": "Pickup",
+    "fuelType": "Hybrid",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "FWD",
+    "fuelEconomy": {
+      "city": 42,
+      "highway": 35,
+      "combined": 38,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": null,
+    "features": [
+      "FLEXBED storage system",
+      "Wireless smartphone connectivity",
+      "13.2-inch touchscreen",
+      "Rear under-seat storage"
+    ]
+  },
+  {
+    "id": "toyota-tacoma-2026",
+    "make": "Toyota",
+    "model": "Tacoma",
+    "year": 2026,
+    "price": 40415,
+    "bodyType": "Pickup",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 5,
+    "drivetrain": "RWD",
+    "fuelEconomy": {
+      "city": 20,
+      "highway": 24,
+      "combined": 22,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": null,
+    "features": [
+      "Toyota Safety Sense 3.0",
+      "Wireless Apple CarPlay",
+      "Wireless Android Auto",
+      "Composite pickup bed"
+    ]
+  },
+  {
+    "id": "ford-f-150-2026",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2026,
+    "price": 39585,
+    "bodyType": "Pickup",
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "seats": 6,
+    "drivetrain": "RWD",
+    "fuelEconomy": {
+      "city": 20,
+      "highway": 26,
+      "combined": 22,
+      "unit": "MPG"
+    },
+    "electricRange": null,
+    "cargoCapacity": null,
+    "features": [
+      "Ford Co-Pilot360",
+      "Apple CarPlay",
+      "Android Auto",
+      "Pro Power Onboard"
+    ]
+  }
+]
