@@ -54,6 +54,10 @@ export function MainPage() {
     setIsBookingConfirmed(false);
   }
 
+  function goToPreviousStep() {
+  setCurrentStepIndex((i) => Math.max(i - 1, 0));
+}
+
   return (
     <div className={styles.page}>
       <header className={styles.header}>
@@ -73,13 +77,18 @@ export function MainPage() {
         {currentStep.id === "shortlist" && <Shortlist onSelectCar={handleSelectCar} />}
 
         {currentStep.id === "financing" && selectedCar && (
-          <FinancingCalculator car={selectedCar} onContinue={handleFinancingContinue} />
+          <FinancingCalculator
+            key={selectedCar.id}
+            car={selectedCar}
+            onContinue={handleFinancingContinue}
+            onBack={goToPreviousStep}
+          />
         )}
 
         {currentStep.id === "booking" && selectedCar && (
           isBookingConfirmed ? (
             <div className={styles.placeholder}>
-              <p>Appointment confirmed. (Round 2 scope — not sent anywhere real yet.)</p>
+              <p>Appointment confirmed.</p>
               <button type="button" onClick={handleRestart} className={styles.restartButton}>
                 ← start over
               </button>

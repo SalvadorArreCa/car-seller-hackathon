@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { CarOption } from "../../types/shortlist";
+import { CarIllustration } from "../Shortlist/CarIllustration";
 import {
   ASSUMED_APR,
   ESTIMATED_FEES,
@@ -13,14 +14,19 @@ import styles from "./FinancingCalculator.module.css";
 interface FinancingCalculatorProps {
   car: CarOption;
   onContinue: (result: FinancingResult) => void;
+  onBack: () => void;
 }
 
 /** Vehicle price is fixed to the car the user picked in the shortlist —
  *  not editable here. Down payment and loan term are the only real
  *  inputs. Recalculates only when "Calculate" is pressed; changing an
  *  input after that clears the stale result rather than showing
- *  numbers that no longer match what's on screen. */
-export function FinancingCalculator({ car, onContinue }: FinancingCalculatorProps) {
+ *  numbers that no longer match what's on screen.
+ *
+ *  MainPage mounts this with key={selectedCar.id}, so switching cars via
+ *  "back to shortlist" always starts this component's state fresh rather
+ *  than carrying over a stale slider position or calculated result. */
+export function FinancingCalculator({ car, onContinue, onBack }: FinancingCalculatorProps) {
   const [downPayment, setDownPayment] = useState(0);
   const [loanTermMonths, setLoanTermMonths] = useState<number>(LOAN_TERM_OPTIONS[2]);
   const [result, setResult] = useState<FinancingResult | null>(null);
@@ -49,7 +55,19 @@ export function FinancingCalculator({ car, onContinue }: FinancingCalculatorProp
     <div className={styles.card}>
       <div>
         <h2 className={styles.heading}>Payment Plan</h2>
-        <p className={styles.subheading}>for {car.name}</p>
+      </div>
+
+      <div className={styles.carSummary}>
+        <CarIllustration className={styles.carSummaryIcon} />
+        <div className={styles.carSummaryInfo}>
+          <p className={styles.carSummaryName}>{car.name}</p>
+          <p className={styles.carSummarySpecs}>
+            {car.brand} · {car.type} · {formatCurrency(car.priceValue)}
+          </p>
+        </div>
+        <button type="button" onClick={onBack} className={styles.backLink}>
+          ← not this one?
+        </button>
       </div>
 
       <div className={styles.fieldGroup}>

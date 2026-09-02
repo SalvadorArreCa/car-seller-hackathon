@@ -18,10 +18,58 @@
   color: var(--color-text);
 }
 
-.subheading {
-  margin: 0.25rem 0 0;
-  font-size: 0.875rem;
+.carSummary {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.75rem 0.875rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background: var(--color-surface-raised);
+}
+
+.carSummaryIcon {
+  width: 2.75rem;
+  height: auto;
+  color: var(--color-teal);
+  flex-shrink: 0;
+}
+
+.carSummaryInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.carSummaryName {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.carSummarySpecs {
+  margin: 0.125rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
   color: var(--color-text-muted);
+}
+
+.backLink {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  white-space: nowrap;
+}
+
+.backLink:hover {
+  color: var(--color-accent);
 }
 
 .fieldGroup {
